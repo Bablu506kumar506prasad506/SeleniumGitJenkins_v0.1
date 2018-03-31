@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="191852" started-at="2018-03-31T07:43:07Z" finished-at="2018-03-31T07:46:19Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="191852" started-at="2018-03-31T07:43:07Z" finished-at="2018-03-31T07:46:19Z">
+      <class name="executions.TS_21_Exe">
+        <test-method status="PASS" signature="ExtetReport()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="ExtetReport" is-config="true" duration-ms="615" started-at="2018-03-31T13:13:07Z" finished-at="2018-03-31T13:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtetReport -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="16428" started-at="2018-03-31T13:13:08Z" finished-at="2018-03-31T13:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CRe4_978()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="CRe4_978" duration-ms="39660" started-at="2018-03-31T13:13:24Z" finished-at="2018-03-31T13:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRe4_978 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-03-31T13:14:04Z" finished-at="2018-03-31T13:14:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRe4_978 status=SUCCESS method=TS_21_Exe.CRe4_978()[pri:0, instance:executions.TS_21_Exe@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="tearDown" is-config="true" duration-ms="132" started-at="2018-03-31T13:14:04Z" finished-at="2018-03-31T13:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="14191" started-at="2018-03-31T13:14:04Z" finished-at="2018-03-31T13:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CRe4_970_971_972_973_977()[pri:1, instance:executions.TS_21_Exe@343f4d3d]" name="CRe4_970_971_972_973_977" duration-ms="50628" started-at="2018-03-31T13:14:18Z" finished-at="2018-03-31T13:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRe4_970_971_972_973_977 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="tearDown" is-config="true" duration-ms="129" started-at="2018-03-31T13:15:09Z" finished-at="2018-03-31T13:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="getResult" is-config="true" duration-ms="0" started-at="2018-03-31T13:15:09Z" finished-at="2018-03-31T13:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRe4_970_971_972_973_977 status=SUCCESS method=TS_21_Exe.CRe4_970_971_972_973_977()[pri:1, instance:executions.TS_21_Exe@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="14346" started-at="2018-03-31T13:15:09Z" finished-at="2018-03-31T13:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CRe4_974()[pri:2, instance:executions.TS_21_Exe@343f4d3d]" name="CRe4_974" duration-ms="52506" started-at="2018-03-31T13:15:23Z" finished-at="2018-03-31T13:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRe4_974 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="tearDown" is-config="true" duration-ms="2236" started-at="2018-03-31T13:16:16Z" finished-at="2018-03-31T13:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="getResult" is-config="true" duration-ms="0" started-at="2018-03-31T13:16:16Z" finished-at="2018-03-31T13:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRe4_974 status=SUCCESS method=TS_21_Exe.CRe4_974()[pri:2, instance:executions.TS_21_Exe@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:executions.TS_21_Exe@343f4d3d]" name="clear" is-config="true" duration-ms="917" started-at="2018-03-31T13:16:18Z" finished-at="2018-03-31T13:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+      </class> <!-- executions.TS_21_Exe -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
