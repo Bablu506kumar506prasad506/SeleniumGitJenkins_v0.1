@@ -48,7 +48,6 @@ public class TS_21_Exe {
 		String chrome = r1.getCell(1, 2).getContents();
 		GlobalMethods.LaunchBrowser(chrome, URL);
 		test.log(LogStatus.PASS, "Test Case is true");
-
 	}
 
 	@Test(priority = 1)
