@@ -33,16 +33,18 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import com.mongodb.client.model.FindOptions;
+
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 import jxl.write.WritableWorkbook;
 
-public class GlobalMethods {
+public class GlobalMethods1 {
 
 	public static WebDriver driver;
 
-	public GlobalMethods() {
+	public GlobalMethods1() {
 
 		// this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -88,12 +90,6 @@ public class GlobalMethods {
 
 	public static void LaunchBrowser(String browserName, String Url) {
 		if (browserName.equals("firefox")) {
-			
-			File pathBinary = new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
-			FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);   
-			DesiredCapabilities desired = DesiredCapabilities.firefox();
-			FirefoxOptions options = new FirefoxOptions();
-			desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
 			
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("chrome")) {

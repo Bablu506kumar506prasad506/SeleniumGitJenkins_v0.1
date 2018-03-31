@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import GlobalMethod.GlobalMethods;
+import GlobalMethod.GlobalMethods1;
 import Scenario.TS_20;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -25,7 +25,7 @@ public class TS_20_exe {
 
 		String URL = r1.getCell(1,0).getContents();
 		String FirefoxBrowser = r1.getCell(1,1).getContents();
-		GlobalMethods.LaunchBrowser(FirefoxBrowser, URL);
+		GlobalMethods1.LaunchBrowser(FirefoxBrowser, URL);
 
 	}
 
@@ -198,7 +198,7 @@ public class TS_20_exe {
 
 	@AfterMethod
 	public void tearDown() throws Exception {
-		GlobalMethods.driver.quit();
+		
 
 	}
 }

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -15,12 +16,12 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import GlobalMethod.GlobalMethods;
+import GlobalMethod.GlobalMethods1;
 import Scenario.TS_21;
 import jxl.Sheet;
 import jxl.Workbook;
 
-public class TS_21_Exe {
+public class TS_21_Exes {
 
 	ExtentReports extend;
 	ExtentTest test;
@@ -46,7 +47,7 @@ public class TS_21_Exe {
 
 		String URL = r1.getCell(1, 0).getContents();
 		String chrome = r1.getCell(1, 2).getContents();
-		GlobalMethods.LaunchBrowser(chrome, URL);
+		GlobalMethods1.LaunchBrowser(chrome, URL);
 		test.log(LogStatus.PASS, "Test Case is true");
 	}
 
@@ -118,7 +119,7 @@ public class TS_21_Exe {
 
 	@AfterMethod
 	public void tearDown() throws Exception {
-		GlobalMethods.driver.close();
+		GlobalMethods1.driver.close();
 
 	}
 

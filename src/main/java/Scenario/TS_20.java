@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import GlobalMethod.GlobalMethods;
+import GlobalMethod.GlobalMethods1;
 import GlobalMethod.GlobalWait;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -17,12 +17,12 @@ import jxl.Workbook;
 public class TS_20 {
 	public TS_20() {
 		// this.driver=driver;
-		// driver = GlobalMethods.driver;
-		PageFactory.initElements(GlobalMethods.driver, this);
+		// driver = GlobalMethods1.driver;
+		PageFactory.initElements(GlobalMethods1.driver, this);
 	}
 
-	GlobalWait GWait = new GlobalWait(GlobalMethods.driver);
-	Actions action = new Actions(GlobalMethods.driver);
+	GlobalWait GWait = new GlobalWait(GlobalMethods1.driver);
+	Actions action = new Actions(GlobalMethods1.driver);
 
 	// -------Edit Lick-----//
 
@@ -111,7 +111,7 @@ public class TS_20 {
 	public void CRe4_987_988() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
 
@@ -175,7 +175,7 @@ public class TS_20 {
 	public void CRe4_989() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -205,7 +205,7 @@ public class TS_20 {
 	public void CRe4_990() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -237,7 +237,7 @@ public class TS_20 {
 	public void CRe4_992() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -267,7 +267,7 @@ public class TS_20 {
 	public void CRe4_993() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -299,7 +299,7 @@ public class TS_20 {
 	public void CRe4_995() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -329,7 +329,7 @@ public class TS_20 {
 	public void CRe4_996() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -361,7 +361,7 @@ public class TS_20 {
 	public void CRe4_998() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -391,7 +391,7 @@ public class TS_20 {
 	public void CRe4_999() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -423,7 +423,7 @@ public class TS_20 {
 	public void CRe4_1001() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -453,7 +453,7 @@ public class TS_20 {
 	public void CRe4_1002() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -485,7 +485,7 @@ public class TS_20 {
 	public void CRe4_1004() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -515,7 +515,7 @@ public class TS_20 {
 	public void CRe4_1005() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -547,7 +547,7 @@ public class TS_20 {
 	public void CRe4_1007() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -577,7 +577,7 @@ public class TS_20 {
 	public void CRe4_1008() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -609,7 +609,7 @@ public class TS_20 {
 	public void CRe4_1010() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -639,7 +639,7 @@ public class TS_20 {
 	public void CRe4_1011() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -671,7 +671,7 @@ public class TS_20 {
 	public void CRe4_1013() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -701,7 +701,7 @@ public class TS_20 {
 	public void CRe4_1014() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -733,7 +733,7 @@ public class TS_20 {
 	public void CRe4_1016() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -763,7 +763,7 @@ public class TS_20 {
 	public void CRe4_1017() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
@@ -795,7 +795,7 @@ public class TS_20 {
 	public void CRe4_1019() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
 
@@ -835,7 +835,7 @@ public class TS_20 {
 	public void CRe4_1020() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
 
@@ -869,7 +869,7 @@ public class TS_20 {
 	public void CRe4_1021() throws Exception {
 
 		// ----------IEC Admin Login------------//
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		WebElement Manage_IEC1 = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		Manage_IEC1.click();
 

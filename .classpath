@@ -32,5 +32,24 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-java-2.51.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-java-2.51.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/Extended_Reports/extentreports-java-2.41.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-server-standalone-jar-2.53.1/package/jar/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-api-2.34.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-remote-driver-2.29.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Dump/selenium-java-2.51.0/selenium-support-2.29.1-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

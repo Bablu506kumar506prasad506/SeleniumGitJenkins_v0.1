@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import GlobalMethod.GlobalMethods;
+import GlobalMethod.GlobalMethods1;
 import GlobalMethod.GlobalWait;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -20,10 +20,10 @@ import jxl.Workbook;
 public class TS_22 {
 
 	public TS_22() {
-		PageFactory.initElements(GlobalMethods.driver, this);
+		PageFactory.initElements(GlobalMethods1.driver, this);
 	}
-	GlobalWait GWait = new GlobalWait(GlobalMethods.driver);
-	Actions action = new Actions(GlobalMethods.driver);
+	GlobalWait GWait = new GlobalWait(GlobalMethods1.driver);
+	Actions action = new Actions(GlobalMethods1.driver);
 
 	@FindBy(xpath = "html/body/div[3]/div/div[2]/ul/li[4]/a")
 	WebElement manageiec;
@@ -235,7 +235,7 @@ public class TS_22 {
 	// Check for 'Ethics Committee Requests List' tabular fields
 	public void CRe4_1064_65() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -311,7 +311,7 @@ public class TS_22 {
 	// Check for mandatory fields in the add ethic committee form
 	public void CRe4_1066_1067() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -363,7 +363,7 @@ public class TS_22 {
 	// Check for add ethic committee with only one member
 	public void CRe4_1070_71_1085_80_to_85() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -571,7 +571,7 @@ public class TS_22 {
 	// Check for add ethic committee by selecting PI of same institute as MS
 	public void CRe4_1077() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -647,7 +647,7 @@ public class TS_22 {
 	// Check for add ethic committee by selecting PI of same institute as CP
 	public void CRe4_1078() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -725,7 +725,7 @@ public class TS_22 {
 	// Check for add ethic committee by selecting PI of same institute as Member
 	public void CRe4_1079() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -802,7 +802,7 @@ public class TS_22 {
 	// Check for add ethic committee by conflict of interest members
 	public void CRe4_1080() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		FileInputStream fi = new FileInputStream("C:\\Selenium_Files\\Create4_v2\\CReATE4_Data.xls");
 		Workbook wb = Workbook.getWorkbook(fi);
 		Sheet r1 = wb.getSheet("Manage_IECS1");
@@ -878,7 +878,7 @@ public class TS_22 {
 	// Check for fields of list grid in manage IEC
 	public void CRe4_1095_1100_1101_1102() throws Exception {
 
-		GlobalMethods.Admin_Login();
+		GlobalMethods1.Admin_Login();
 		WebElement manageiec = GWait.Wait_GetElementByXpath("html/body/div[3]/div/div[2]/ul/li[4]/a");
 		manageiec.click();
 		WebElement manage_ethic_committee = GWait.Wait_GetElementByLinkText("Manage Ethics Committee");
